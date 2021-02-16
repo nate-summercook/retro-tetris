@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Chicago';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Chicago'), url('assets/fonts/Chicago.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Digital Display';
+  src: url('assets/fonts/Digital-Display.woff2') format('woff2'),
+  url('assets/fonts/Digital-Display.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: Chicago, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
